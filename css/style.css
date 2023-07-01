@@ -800,7 +800,10 @@ input:focus{
    }
    .social-icon {
       width: 100%;
-      margin: 0 ;
+      margin: 30px 0 ;
       padding: 0;
+   }
+   .social-icon small{
+      font-size: 10px;
    }
 }
