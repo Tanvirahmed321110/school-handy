@@ -44,7 +44,6 @@ nav{
     display: flex;
     align-items: center;
     margin: 19px 143px 20px 0px;
-    gap: 245;
     width: 300px;
     height: 52px;
     
@@ -312,7 +311,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px--;
+    gap: 30px;
  }
  .buy-course-image{
     position: relative;
@@ -624,4 +623,184 @@ nav{
   .social-icon {display: flex;
       justify-content: space-between;
       margin-top: -75px;
+}
+
+/* hover */
+a:hover{
+   border-bottom: 1px solid white;
+   padding-bottom:  4px;
+}
+input:focus{
+   background-color: #737373;
+}
+
+
+
+
+/*  ----responsive ----- */
+@media only screen and (max-width:1000px){
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   a{
+      margin: 0;
+      padding: 0;
+   }
+   nav{
+      margin: 0;
+      margin-left:5%;
+      padding-left:5%;
+      width: 100%!important;
+      flex-direction: column;
+      height: auto;
+   }
+   .nav-right {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      margin-right: 19%;
+      gap: 0;
+   }
+   .nav-right {
+      font-size: 12x;
+   }
+   .nav-left{
+      padding: 0;
+      justify-content: flex-end;
+      margin-bottom: 42px;
+      width: 100%;
+   }
+   .headline{
+      /* width: 10%; */
+      margin-left:1%;
+      padding: 0px;
+   }
+   .btn-join{
+      width: 130px;
+      margin: 0;
+      text-align: center;
+      padding:18px 0;
+   }
+   /* header-main */
+   .header-main{
+      width: 100%;
+      flex-direction: column;
+      gap: 50px;
+   }
+   .container{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+   }
+   .header-data{
+      margin-top: 60px;
+      width: 100%;
+      margin-left: -11%;
+      justify-content: flex-start;
+ 
+   }
+   .header-image{
+      width: 100%;
+      height: auto;
+      margin-right: 5%;
+   }
+   
+   /* advice section */
+   .advice-section{
+      margin-left: 7%;
+      margin-bottom: 50px;
+      margin-top: 120px;
+   }
+   
+   .course-main{
+      width: 100%;
+      flex-direction: column;
+   }
+   
+   .course-image{
+      width: 100%;
+      margin-left: 10%;
+      margin-bottom: 50px;
+   }  
+   
+   /*  course traing */
+   .card-container{
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      gap: -111px;
+      margin: 50px 2%;
+      padding: 0;
+   }
+   .training-card{
+      margin: 0;
+      gap: 15px;
+      width: 45%;
+      margin-right: 4%;
+      box-sizing: border-box;
+   }
+   
+   /* ---.buy-course-mai--- */
+   .buy-course-main{
+      width: 100%;
+      /* margin: 0 auto; */
+      align-items:center;
+      justify-content: center;
+      gap: 10%;
+      flex-wrap: wrap;
+   }
+   .buy-course-container{
+      margin-bottom: 60px;
+   }
+   .Testimonials-contaier{
+      width: 100%;
+      margin:80px 5%;
+   }
+   .client-comment-main{
+      margin-bottom: 60px;
+   }
+ 
+   
+   form{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 100px;
+   }
+   
+   
+   /* ---footer section  */
+   footer{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+   }
+   .main-footer{
+      /* width: 100%; */
+      grid-template-columns:1fr 1fr;
+      align-items: center;
+      justify-content: center;
+      gap: 35px;
+      margin: 0;
+      padding:3%;
+   }
+   .full-height{
+      background-color: red;
+     /* width: 100%; */
+     grid-column: 1/3;
+     margin: 0;
+     text-align: center;
+   }
+
+   .right{
+      text-align: right;
+   }
+   .social-icon {
+      width: 100%;
+      margin: 0 ;
+      padding: 0;
+   }
 }
